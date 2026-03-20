@@ -25,15 +25,15 @@ export const DATA = {
   avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQE5s7OlvgNbwg/profile-displayphoto-shrink_200_200/B56ZSpPvluHsAY-/0/1738006266261?e=1775692800&v=beta&t=aMLkATEPTpj-DnJLrZSc305gIWwMygwEe61bKXSZ-Gw",
   skills: [
     { name: "React", icon: ReactLight },
-    { name: "Laravel" },
-    { name: "Shopify" },
-    { name: "WordPress" },
-    { name: ".NET" },
+    { name: "Laravel", icon: undefined },
+    { name: "Shopify", icon: undefined },
+    { name: "WordPress", icon: undefined },
+    { name: ".NET", icon: undefined },
     { name: "JavaScript/TypeScript", icon: Typescript },
     { name: "Python", icon: Python },
-    { name: "Lead Generation" },
-    { name: "SEO" },
-    { name: "Graphic/Social Media Design" },
+    { name: "Lead Generation", icon: undefined },
+    { name: "SEO", icon: undefined },
+    { name: "Graphic/Social Media Design", icon: undefined },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -272,7 +272,7 @@ export const DATA = {
       description:
         "Personally recognized and awarded by the Hon’ble Chief Minister of Rajasthan, Shri Bhajan Lal Sharma Ji, during Rajasthan Yuva Shakti Diwas 2026. Selected as the sole representative for the Cybersecurity domain to receive this distinction on stage in the presence of state cabinet ministers and 1,000+ NCC and DoIT&C personnel.",
       image: "",
-      links: [],
+      links: [] as readonly any[],
     },
     {
       title: "1st place for Best Performance at the IT Exhibition and Hackathon 2024",
@@ -281,7 +281,7 @@ export const DATA = {
       description:
         "Won 1st place for Best Performance at the IT Exhibition and Hackathon 2024! 🏆 It was a great experience to present my ideas and learn from other amazing projects.",
       image: "",
-      links: [],
+      links: [] as readonly any[],
     },
   ],
 } as const;
