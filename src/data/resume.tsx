@@ -176,12 +176,12 @@ export const DATA = {
       technologies: ["Go", "Generative AI", "Lead Generation"],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/dhananjay-pareek/GMAP-Scrapper",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://gms-epgq.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/projects/gmap-scrapper.png",
       video: "",
     },
     {
@@ -199,7 +199,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video: "/projects/rankernet-homepage.mp4",
     },
     {
       title: "Oz Stone Warehouse",
@@ -216,7 +216,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video: "/projects/oz-stone.mp4",
     },
     {
       title: "OutStoryIndia SEO",
@@ -243,7 +243,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/projects/indiwiki.png",
       video: "",
     },
     {
