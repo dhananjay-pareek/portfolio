@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, GlobeIcon, MailIcon } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -15,33 +15,31 @@ import { Csharp } from "@/components/ui/svgs/csharp";
 export const DATA = {
   name: "Dhananjay Pareek",
   initials: "DP",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://rankernet.com",
+  location: "Jaipur, India",
+  locationLink: "https://www.google.com/maps/place/jaipur",
   description:
-    "EC-Council Certified SOC Analyst and full-stack developer with hands-on experience in web development, graphic design, social media, and SEO.",
+    "Certified SOC Analyst · Full-Stack Developer (WP/Shopify/Custom Code) · SEO Expert · Helping 15+ Startups with Secure & Optimized Web Applications",
   summary:
-    "I build websites and web applications on WordPress, Shopify, PHP/Laravel, React, .NET, and more with security and performance built in from the start. I've worked with 15+ startups in India and the UK, helping them grow their digital presence through clean code, creative content, and technical optimization. Currently expanding deeper into cybersecurity with a focus on threat monitoring and blue team operations.",
+    "**I don't just build websites - I build them secure.**\n\nAs a certified cybersecurity professional and full-stack developer, I bring something most developers can't: a security-first mindset. SQL injection, XSS, authentication flaws - I know how attackers think, and I build defenses in from day one.\n\nI've worked with **15+ startups in India and the UK**, delivering WordPress, Shopify, React, and custom-coded solutions with SEO baked in. Clean code. Fast sites. Rankings that stick.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQE5s7OlvgNbwg/profile-displayphoto-shrink_200_200/B56ZSpPvluHsAY-/0/1738006266261?e=1775692800&v=beta&t=aMLkATEPTpj-DnJLrZSc305gIWwMygwEe61bKXSZ-Gw",
   skills: [
+    { name: "Web Development", icon: ReactLight },
     { name: "React", icon: ReactLight },
-    { name: "Laravel", icon: Java },
-    { name: "Shopify", icon: GlobeIcon },
-    { name: "WordPress", icon: GlobeIcon },
-    { name: ".NET", icon: Csharp },
-    { name: "JavaScript/TypeScript", icon: Typescript },
-    { name: "Python", icon: Python },
-    { name: "Lead Generation", icon: MailIcon },
-    { name: "SEO", icon: GlobeIcon },
-    { name: "Graphic/Social Media Design", icon: Icons.linkedin },
+    { name: "WordPress Development", icon: GlobeIcon },
+    { name: "Shopify Development", icon: GlobeIcon },
+    { name: "Search Engine Optimization (SEO)", icon: GlobeIcon },
+    { name: "Go", icon: GlobeIcon },
+    { name: "PHP", icon: GlobeIcon },
+    { name: "Cybersecurity", icon: Icons.globe },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "dhananjaypareek257@gmail.com",
+    tel: "+918209750537",
     social: {
       GitHub: {
         name: "GitHub",
@@ -49,33 +47,17 @@ export const DATA = {
         icon: Icons.github,
         navbar: true,
       },
-
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/dhananjay-pareek/",
         icon: Icons.linkedin,
-
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
-
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:dhananjaypareek257@gmail.com",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -93,6 +75,17 @@ export const DATA = {
       description: "Managing the visual identity of YOROOM's Instagram and LinkedIn platforms remotely. Responsible for designing social content that reflects the brand's values and drives community engagement.",
     },
     {
+      company: "Delhi-based Digital Agency",
+      badges: ["White-Label"],
+      href: "",
+      location: "Remote",
+      title: "Web Developer & SEO Specialist",
+      logoUrl: "",
+      start: "January 2026",
+      end: "Present",
+      description: "Delivering white-label web development and SEO projects for a Delhi-based digital agency. Work includes WordPress and Shopify builds, on-page and off-page SEO, backlink building, site migrations, and performance optimization for the agency's end clients.",
+    },
+    {
       company: "Avior Jewels",
       badges: [],
       href: "",
@@ -108,22 +101,11 @@ export const DATA = {
       href: "",
       badges: [],
       location: "Jaipur",
-      title: "Search Engine Optimisation Intern",
+      title: "SEO Executive",
       logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQEnXcGPSTUIHg/company-logo_100_100/company-logo_100_100/0/1630523475369/foxclues_logo?e=1775692800&v=beta&t=FAoQfowfdwmfYGEJI6H8gIUSwmK6gYmUY_KTgA6u3NM",
       start: "July 2025",
-      end: "August 2025",
-      description: "Executed on-page and technical SEO strategies for Outstory India, improving website crawlability and loading speed. Contributed to Domain Authority growth through link-building, SEO audits, and performance reporting.",
-    },
-    {
-      company: "AYN NEWS",
-      href: "",
-      badges: [],
-      location: "Jaipur",
-      title: "Social Media Marketing Intern",
-      logoUrl: "",
-      start: "April 2025",
-      end: "June 2025",
-      description: "Created and scheduled content across Instagram, Facebook, and LinkedIn for a registered digital media platform.",
+      end: "Present",
+      description: "Executed on-page and technical SEO strategies for FoxStory India, improving website crawlability and loading speed. Contributed to Domain Authority growth through link-building, SEO audits, and performance reporting.",
     },
     {
       company: "ekiva",
@@ -141,11 +123,11 @@ export const DATA = {
       href: "",
       badges: [],
       location: "Jaipur",
-      title: "Creative Designer",
+      title: "SEO Executive",
       logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQFAzDDBqsSyjQ/company-logo_100_100/company-logo_100_100/0/1728894621751/best_capital_services_limited01_logo?e=1775692800&v=beta&t=y9RDFRU7RIVZJbcQ8gtrOFjihzmZSjYm8d62dcdRWCM",
-      start: "July 2024",
-      end: "August 2024",
-      description: "Produced graphics and video content representing Best Capital's financial services and brand identity.",
+      start: "June 2024",
+      end: "December 2025",
+      description: "Started as SEO Intern and promoted to SEO Executive. Managed search engine optimization strategies for the company.",
     },
   ],
   education: [
@@ -172,8 +154,8 @@ export const DATA = {
       href: "https://github.com/dhananjay-pareek/GMAP-Scrapper",
       dates: "Jan 2026 - Present",
       active: true,
-      description: "Built a Google Maps scraper using Go, integrated with GenAI capabilities to extract, process, and structure business data at scale. Designed for speed and efficiency leveraging Go's concurrency model. Use cases include lead generation, local SEO research, and competitor analysis.",
-      technologies: ["Go", "Generative AI", "Lead Generation"],
+      description: "Built a Google Maps scraper in Go that pulls business data at scale. Fast, concurrent, and built for lead gen and local SEO research.",
+      technologies: ["Go", "Web Scraping", "Lead Generation"],
       links: [
         {
           type: "Website",
@@ -189,8 +171,8 @@ export const DATA = {
       href: "https://rankernet.com",
       dates: "Sep 2025 - Present",
       active: true,
-      description: "Designed and developed Rankernet.com from scratch using React a fully custom-built digital agency website currently serving as the flagship for my freelance and client work. The platform is being actively developed into a SaaS product. Handled complete frontend architecture, UI/UX design, and deployment independently.",
-      technologies: ["React", "UI/UX Design"],
+      description: "My agency website, built from scratch in React. Handles my freelance work and client projects. Currently turning it into a SaaS product.",
+      technologies: ["React", "JavaScript", "UI/UX Design"],
       links: [
         {
           type: "Website",
@@ -206,7 +188,7 @@ export const DATA = {
       href: "https://ozstonewarehouse.com.au",
       dates: "Feb 2026 - Mar 2026",
       active: false,
-      description: "Migrated the full website of Oz Stone Warehouse (Australia) from Laravel to WordPress. Rebuilt the site with a custom theme, product catalogue, and contact flows - preserving URL structure and SEO continuity throughout the migration. Delivered a faster, client-manageable WordPress solution for an Australian sandstone importer serving customers across the country.",
+      description: "Migrated an Australian stone importer's site from Laravel to WordPress. Custom theme, product catalog, clean URLs - kept all their SEO juice intact.",
       technologies: ["WordPress", "Laravel", "SEO"],
       links: [
         {
@@ -223,8 +205,8 @@ export const DATA = {
       href: "",
       dates: "Jun 2025 - Aug 2025",
       active: false,
-      description: "Led end-to-end SEO recovery and growth strategy for OutStory India, a digital news platform covering politics, business, and current affairs. Managed a full content rebuild after a 3,000+ post reset restructuring site architecture, submitting sitemaps, and resolving indexing issues via Google Search Console. Implemented on-page optimization using Rank Math targeting 90+ scores, conducted keyword research via SEMrush, and developed pillar content supported by niche articles. Built authority through internal linking and guest post outreach. Configured Cloudflare, caching, and image optimization for performance. Work was aligned toward Google News approval and consistent branded query rankings.",
-      technologies: ["Search Engine Optimization (SEO)", "Foxclues", "Google Search Console", "Cloudflare"],
+      description: "Rescued a news site's SEO after they wiped 3,000+ posts. Rebuilt the architecture, fixed indexing issues, got them ranking again. Used Rank Math, SEMrush, and lots of backlink outreach.",
+      technologies: ["SEO", "Google Search Console", "Cloudflare", "Content Strategy"],
       links: [],
       image: "",
       video: "",
@@ -234,8 +216,8 @@ export const DATA = {
       href: "https://indiwiki.com",
       dates: "Jul 2025 - Aug 2025",
       active: false,
-      description: "Designed and developed IndiWiki.com from scratch a fully functional Wikipedia-style platform built on a custom WordPress theme. Handled complete project ownership including server setup on cPanel, custom PHP functionality, plugin configuration for SEO, security and automation, and responsive UI design. Key features include an auto-updating recent posts section, dynamic sidebar image embeds, and an optimized wiki-style layout. Delivered a live, fast-loading, SEO-friendly platform built end-to-end independently.",
-      technologies: ["PHP", "WordPress", "cPanel", "Foxclues"],
+      description: "A Wikipedia-style platform I built on WordPress from scratch. Custom theme, PHP backend, auto-updating content sections. Set up the server myself too.",
+      technologies: ["PHP", "WordPress", "Server Setup"],
       links: [
         {
           type: "Website",
@@ -251,8 +233,8 @@ export const DATA = {
       href: "https://transformsyou.in",
       dates: "Aug 2023 - Sep 2023",
       active: false,
-      description: "Built TransformsYou.in, a yoga services platform for a wellness brand in Gurugram, India. Developed the site using WordPress and Elementor, implementing a class registration flow, instructor profiles, and an SEO-optimized blog section. Focused on delivering a clean, user-friendly experience for both new and experienced yoga practitioners, with strong on-page SEO foundations for local search visibility.",
-      technologies: ["Elementor", "Search Engine Optimization (SEO)", "WordPress"],
+      description: "Yoga services website for a Gurugram wellness brand. WordPress + Elementor, class registration, instructor profiles, and SEO setup for local search.",
+      technologies: ["WordPress", "Elementor", "SEO"],
       links: [
         {
           type: "Website",
@@ -266,11 +248,11 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Representing Cybersecurity at the State Level",
+      title: "State Government Recognition for Cybersecurity Excellence",
       dates: "March 2026",
-      location: "Government of Rajasthan",
+      location: "Government of Rajasthan, India",
       description:
-        "Personally recognized and awarded by the Hon’ble Chief Minister of Rajasthan, Shri Bhajan Lal Sharma Ji, during Rajasthan Yuva Shakti Diwas 2026. Selected as the sole representative for the Cybersecurity domain to receive this distinction on stage in the presence of state cabinet ministers and 1,000+ NCC and DoIT&C personnel.",
+        "Personally recognized and awarded by the Hon’ble Chief Minister of Rajasthan, Shri Bhajan Lal Sharma Ji (equivalent to a U.S. State Governor), during Rajasthan Yuva Shakti Diwas 2026. Selected as the sole representative for Cybersecurity out of the entire state, receiving this distinction on stage in the presence of government ministers and 1,000+ officials.",
       image: "",
       links: [] as readonly any[],
     },
@@ -282,6 +264,34 @@ export const DATA = {
         "Won 1st place for Best Performance at the IT Exhibition and Hackathon 2024! 🏆 It was a great experience to present my ideas and learn from other amazing projects.",
       image: "",
       links: [] as readonly any[],
+    },
+  ],
+  certifications: [
+    {
+      title: "Certified SOC Analyst (CSA v2)",
+      issuer: "EC-Council",
+      dates: "February 2026",
+      credentialId: "ECC5403196278",
+      verifyUrl: "https://aspen.eccouncil.org/VerifyBadge?type=certification&a=eV8q+VMHRSRAZr9drMOKUAXLRaUQuvaEBgkecGcBNCw=",
+      description: "EC-Council certification in threat detection and security monitoring. Means I know how to spot vulnerabilities like SQL injection, XSS, and auth flaws before they become problems.",
+      skills: ["Secure Web Development", "Vulnerability Prevention", "Threat Detection", "Security Best Practices"],
+    },
+  ],
+  differentiators: [
+    {
+      title: "Security-First Development",
+      description: "I'm trained to think like an attacker. SQL injection, XSS, CSRF - I build defenses in from the start, not as an afterthought.",
+      icon: "shield",
+    },
+    {
+      title: "Full-Stack SEO Knowledge", 
+      description: "Sites I build are made to rank. Technical SEO, Core Web Vitals, backlinks - it's all part of the build, not a separate service.",
+      icon: "search",
+    },
+    {
+      title: "End-to-End Ownership",
+      description: "Design, code, deploy, optimize. One person, no handoffs, no 'that's not my job'. You get accountability.",
+      icon: "code",
     },
   ],
 } as const;
