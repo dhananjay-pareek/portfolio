@@ -130,24 +130,7 @@ export const DATA = {
       description: "Started as SEO Intern and promoted to SEO Executive. Managed search engine optimization strategies for the company.",
     },
   ],
-  // education: [
-    {
-      school: "University of Rajasthan",
-      href: "",
-      degree: "Bachelor of Computer Applications (BCA)",
-      logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQFiJfi4y77ylA/company-logo_100_100/company-logo_100_100/0/1631342155240?e=1775692800&v=beta&t=LoOs8c7zZnaV48Jjahc9ku7TKh6FVlCI2b86N2E66FU",
-      start: "July 2023",
-      end: "Present",
-    },
-    {
-      school: "Maheshwari Public School",
-      href: "",
-      degree: "Intermediate, Computer and Information Sciences and Support Services",
-      logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQG3j1bLUPhc5Q/company-logo_100_100/company-logo_100_100/0/1679820797802/maheshwari_public_school_logo?e=1775692800&v=beta&t=WISk51P4Oub7dYRvZ6OzAB-M0s1gpMqqrT4m4KCGtnU",
-      start: "2018",
-      end: "2022",
-    },
-  ],
+
   projects: [
     {
       title: "Google Maps Data Scraper",
