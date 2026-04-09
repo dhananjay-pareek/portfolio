@@ -22,7 +22,7 @@ export const DATA = {
     "Certified SOC Analyst · Full-Stack Developer (WP/Shopify/Custom Code) · SEO Expert · Helping 15+ Startups with Secure & Optimized Web Applications",
   summary:
     "**I don't just build websites - I build them secure.**\n\nAs a certified cybersecurity professional and full-stack developer, I bring something most developers can't: a security-first mindset. SQL injection, XSS, authentication flaws - I know how attackers think, and I build defenses in from day one.\n\nI've worked with **15+ startups in India and the UK**, delivering WordPress, Shopify, React, and custom-coded solutions with SEO baked in. Clean code. Fast sites. Rankings that stick.",
-  avatarUrl: "/pfp.jpg",
+  avatarUrl: "public\pfp.jpg",
   skills: [
     { name: "Web Development", icon: ReactLight },
     { name: "React", icon: ReactLight },
@@ -130,7 +130,6 @@ export const DATA = {
       description: "Started as SEO Intern and promoted to SEO Executive. Managed search engine optimization strategies for the company.",
     },
   ],
-
   projects: [
     {
       title: "Google Maps Data Scraper",
